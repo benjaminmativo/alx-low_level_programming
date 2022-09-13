@@ -1,15 +1,17 @@
 #include "main.h"
+
 /**
- * A function that prints last digit
- * @n: takes ln an integer
- * Return: result output
+ * print_last_digit -> prints the last digit
+ * @n: the passed args
+ * Return: the last digit
  */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
-	int ln = n % 10;
+	int x;
 
 	if (n < 0)
-		ln = ln* -l;
-	_putchar(ln + '0');
-	return (ln);
+	    n = -n;
+  	x = n % 10;
+	_putchar(x + '0');
+	return (X);
 }
