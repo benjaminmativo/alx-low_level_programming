@@ -1,21 +1,16 @@
 #include <stdio.h>
 /**
- * main - Entry poiny
+ * main - entry point
  *
- * Return: Always 0 (Success)
+ * Return: alway returns 0
+ *
  */
-
-	int main(void)
-
+int main(void)
 {
-	char alphabet;
+	char a;
 
-	for (alphabet = 122 ; alphabet >= 97; alphabet--)
-	
-	{
-		putchar(alphabet);
-	}
+	for (a = 'z'; a >= 'a' ; a--)
+		putchar(a);
 	putchar('\n');
-
 	return (0);
 }
